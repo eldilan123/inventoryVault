@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link href="css/sb-admin-2.css" rel="stylesheet">
+    <link href="css/miestilo.css" rel="stylesheet">
 
 
 </head>
@@ -46,14 +47,14 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item ">
                 <a class="nav-link" href="products.php">
                     <i class="fab fa-product-hunt"></i>
                     <span>Products</span></a>
             </li>
 
 
-            <li class="nav-item ">
+            <li class="nav-item active">
                 <a class="nav-link" href="locations.php">
                    <i class="fas fa-search-location"></i>
                     <span>Location</span></a>
@@ -297,12 +298,26 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Products</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Location</h1>
                        
                     </div>
-
+                    
+                    <div class="row">
+                    <div class="col-md-12 flex-location">
+                    <div class="div-location">
+                    <h2>Add New Location</h2>
+                    <label for="name">Location Name:</label>
+                    <input type="text" name="name">
+                    <label for="id_wine_cellar">Winery Cellar:</label>
+                    <input type="text" name="id_wine_cellar">
+                    <button>SAVE</button>
+                    </div>
+                    </div>
+                    </div>
                    
                         <div class="row">
+                        
+
                          <div class="col-md-12">
                              <table id="example" class="display" style="width:100%">
         <thead>

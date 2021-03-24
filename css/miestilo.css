@@ -1,0 +1,23 @@
+.flex-location{
+    text-align: center;
+height: 9rem;
+display: flex;
+justify-content: center;
+}
+
+
+.div-location{
+    width: 50%;
+justify-content: center;
+border: 2px solid #1C6EA4;
+border-radius: 19px;
+
+padding-top: 15px;
+}
+
+.log-div{
+    width: 47%;
+border: 2px solid #1C6EA4;
+border-radius: 19px;
+padding-top: 15px;
+}

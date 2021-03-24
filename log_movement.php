@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link href="css/sb-admin-2.css" rel="stylesheet">
+    <link href="css/miestilo.css" rel="stylesheet">
 
 
 </head>
@@ -46,7 +47,7 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item ">
                 <a class="nav-link" href="products.php">
                     <i class="fab fa-product-hunt"></i>
                     <span>Products</span></a>
@@ -59,7 +60,7 @@
                     <span>Location</span></a>
             </li>
 
-            <li class="nav-item ">
+            <li class="nav-item  active">
                 <a class="nav-link" href="log_movement.php">
                   <i class="fas fa-chalkboard"></i>
                     <span>Log Movement</span></a>
@@ -297,12 +298,57 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Products</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Log Movement</h1>
                        
                     </div>
-
+                    
+                    <div class="row">
+                    <div class="col-md-12 flex-location" style="height: 17rem;">
+                    <div class="log-div">
+                    <h2>Move a Product</h2>
+                    <div class="row">
+                    <div class="col-md-4">
+                    <label for="id_wine_cellar_old">Warehouse 1:</label>
+                    <input type="text" name="id_wine_cellar_old">
+                    </div>
+                    <div class="col-md-4">
+                    <label for="location_old">Location 1:</label>
+                    <input type="text" name="location_old">
+                    </div>
+                    <div class="col-md-4">
+                    <label for="id_wine_cellar_new">Warehouse 2:</label>
+                    <input type="text" name="id_wine_cellar_new">
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-4">
+                    <label for="location_new">Location 2:</label>
+                    <input type="text" name="location_new">
+                    </div>
+                    <div class="col-md-4">
+                    <label for="product">Product:</label>
+                    <input type="text" name="product">
+                    </div>
+                    <div class="col-md-4">
+                    <label for="cant">Cant:</label>
+                    <input type="text" name="cant">
+                    </div>
+                    </div>
+                 
+                   
+                    
+                   
+                    
+                   
+                    
+                    <button style="margin-top: 15px;">SAVE</button>
+                    </div>
+                    </div>
+                    </div>
                    
                         <div class="row">
+                        
+
                          <div class="col-md-12">
                              <table id="example" class="display" style="width:100%">
         <thead>
