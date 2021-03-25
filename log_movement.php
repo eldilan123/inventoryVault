@@ -63,19 +63,24 @@
             <li class="nav-item  active">
                 <a class="nav-link" href="log_movement.php">
                   <i class="fas fa-chalkboard"></i>
-                    <span>Log Movement</span></a>
+                    <span>Winery Transfer</span></a>
             </li>
 
             <li class="nav-item ">
                 <a class="nav-link" href="log_entry.php">
                  <i class="fas fa-dungeon"></i>
-                    <span>Log Entry</span></a>
+                    <span>Inventory Entry</span></a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="outbound_inventory.php">
+                  <i class="fas fa-sign-out-alt"></i>
+                    <span>Outbound Inventory</span></a>
             </li>
 
             <li class="nav-item ">
-                <a class="nav-link" href="index.html">
-                  <i class="fas fa-sign-out-alt"></i>
-                    <span>Log Exit</span></a>
+                <a class="nav-link" href="wineries.php">
+                <i class="fas fa-warehouse"></i>
+                    <span>Wineries</span></a>
             </li>
             <!-- Divider -->
          
@@ -305,7 +310,7 @@
                     <div class="row">
                     <div class="col-md-12 flex-location" style="height: 17rem;">
                     <div class="log-div">
-                    <h2>Move a Product</h2>
+                    <h2>Transfer Between Winery</h2>
                     <div class="row">
                     <div class="col-md-4">
                     <label for="id_wine_cellar_old">Warehouse 1:</label>
